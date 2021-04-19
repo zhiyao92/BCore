@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E078CFB24A7494D747D4E1D /* BCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BCore.podspec; path = ../BCore.podspec; sourceTree = "<group>"; };
+		0E078CFB24A7494D747D4E1D /* BCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BCore.podspec; path = ../BCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		130236494E9A15D544C1FABE /* Pods-BCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCore_Example.release.xcconfig"; path = "Target Support Files/Pods-BCore_Example/Pods-BCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2A57B682E83B9D3D5CE6652F /* Pods_BCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5416D02C3CD4C21EC2AE732C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5416D02C3CD4C21EC2AE732C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		566B078D1FC65624EAC88493 /* Pods-BCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-BCore_Example/Pods-BCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* BCore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B17B8DD9477A870CCAAB0FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B17B8DD9477A870CCAAB0FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		70689F4D5CD518368D452C94 /* Pods-BCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-BCore_Tests/Pods-BCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		84F33C7E677A96EB3491A6C9 /* Pods-BCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BCore_Tests/Pods-BCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3B48F137148E8CD69A8F714 /* Pods_BCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				84F33C7E677A96EB3491A6C9 /* Pods-BCore_Tests.debug.xcconfig */,
 				70689F4D5CD518368D452C94 /* Pods-BCore_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module BCore {
+  umbrella header "BCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
