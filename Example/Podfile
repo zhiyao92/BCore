@@ -10,5 +10,6 @@ target 'BCore_Example' do
 
     pod 'Quick', '~> 2.2.0'
     pod 'Nimble', '~> 8.0.7'
+    pod 'Alamofire', '~> 5.2'
   end
 end
