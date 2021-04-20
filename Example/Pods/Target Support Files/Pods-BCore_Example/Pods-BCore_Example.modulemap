@@ -1,4 +1,4 @@
-module Pods_BCore_Example {
+framework module Pods_BCore_Example {
   umbrella header "Pods-BCore_Example-umbrella.h"
 
   export *

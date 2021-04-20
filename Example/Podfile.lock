@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.4.2)
-  - BCore (0.3.0):
+  - BCore (0.4.0):
     - Alamofire
   - Nimble (8.0.9)
   - Quick (2.2.1)
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
-  BCore: 7fc4d1316987efa17c60bdafac09b639ff207a93
+  BCore: b0d0f7f5a63a420020afc224947e231d56748df9
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: d98a0e0cc13c1d2a04ed265c34382748af691efc
+PODFILE CHECKSUM: 2d25f159102fb49ad50815df4b6d19eaa5323e8d
 
 COCOAPODS: 1.10.0

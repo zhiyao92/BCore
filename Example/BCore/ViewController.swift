@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import BCore
+import Alamofire
 
 class ViewController: UIViewController {
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Hello.shared.speak())
+        print(AF.request("https://httpbin.org/get").data)
     }
 
     override func didReceiveMemoryWarning() {

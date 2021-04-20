@@ -1,1 +1,0 @@
-../../../Quick/Sources/QuickObjCRuntime/include/QuickSpecBase.h

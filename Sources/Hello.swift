@@ -7,9 +7,15 @@
 
 import Foundation
 
-public class Hello {
+public struct Hello {
+    
+    public static let shared = Hello()
     
     public func speak() -> String {
         return "Hello"
+    }
+    
+    public func mumble() -> String {
+        return "ASWEQSADDS"
     }
 }
