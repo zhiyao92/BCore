@@ -7,9 +7,9 @@
 
 import Foundation
 
-class Hello {
+public class Hello {
     
-    func speak() -> String {
+    public func speak() -> String {
         return "Hello"
     }
 }

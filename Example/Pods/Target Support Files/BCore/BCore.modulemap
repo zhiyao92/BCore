@@ -1,4 +1,4 @@
-framework module BCore {
+module BCore {
   umbrella header "BCore-umbrella.h"
 
   export *

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BCore'
-  s.version          = '0.2.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of BCore.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.3'
+  s.swift_version = ['4.0', '4.2', '5.1', '5.2', '5.3']
   
   s.source_files = 'Sources/*{swift}'
   
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Alamofire'
 end

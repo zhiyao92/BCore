@@ -1,4 +1,4 @@
-framework module Pods_BCore_Tests {
+module Pods_BCore_Tests {
   umbrella header "Pods-BCore_Tests-umbrella.h"
 
   export *

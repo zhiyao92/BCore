@@ -1,5 +1,7 @@
 PODS:
-  - BCore (0.1.0)
+  - Alamofire (5.4.2)
+  - BCore (0.3.0):
+    - Alamofire
   - Nimble (8.0.9)
   - Quick (2.2.1)
 
@@ -9,7 +11,8 @@ DEPENDENCIES:
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - Nimble
     - Quick
 
@@ -18,10 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BCore: eb80a0ef4659a0eb542792683a6f1864b60e62a4
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  BCore: 7fc4d1316987efa17c60bdafac09b639ff207a93
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 3398443b2179da590cabcbe46f54899e36624075
+PODFILE CHECKSUM: d98a0e0cc13c1d2a04ed265c34382748af691efc
 
 COCOAPODS: 1.10.0
