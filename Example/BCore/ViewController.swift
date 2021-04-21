@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(Hello.shared.speak())
+        print(Hello.shared.mumble())
         print(AF.request("https://httpbin.org/get").data)
     }
 
